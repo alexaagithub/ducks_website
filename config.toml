@@ -1,0 +1,51 @@
+baseURL = 'https://alexaagithub.github.io/ducks_website/'
+languageCode = 'en-us'
+title = 'Quackers'
+theme = 'vex-hugo'
+
+###################################### Navigation ######################################
+
+# homepage section menu
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Store"
+url = "store/"
+weight = 2
+
+[[menu.main]]
+name = "About Us"
+url = "aboutus/"
+weight = 3
+
+[[menu.main]]
+name = "Contact"
+url = "contact/"
+weight = 4
+
+[[menu.main]]
+name = "Blog"
+url = "blog/"
+weight = 5
+
+
+# footer menu
+[[menu.footer]]
+name = "About Us"
+url = "aboutus/"
+weight = 1
+
+[[menu.footer]]
+name = "Contact"
+url = "contact/"
+weight = 2
+
+###################################### Logo ######################################
+[params]
+logo = "images/logo.png"
+logo_width = "150x"
+
+
