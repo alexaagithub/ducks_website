@@ -1,6 +1,6 @@
 ## README
 
-Website created to showcase how to create a website with [Hugo](https://gohugo.io/) from the [Vex theme](https://docs.gethugothemes.com/vex/) and host it on GitHub pages.
+Website created to showcase how to create a website with [Hugo](https://gohugo.io/) from the [Vex theme](https://github.com/themefisher/vex-hugo) and host it on GitHub pages.
 
 ## Install
 ```bash

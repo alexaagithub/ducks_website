@@ -48,4 +48,8 @@ weight = 2
 logo = "images/logo.png"
 logo_width = "150x"
 
+###################################### Footer ######################################
+
+copyright = "Built with [Hugo](https://gohugo.io/) from the [Vex theme](https://github.com/themefisher/vex-hugo). Code available on [GitHub](https://github.com/alexaagithub/ducks_website)."
+
 
