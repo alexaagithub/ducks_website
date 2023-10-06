@@ -47,7 +47,7 @@ link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"
 # homepage section menu
 [[menu.main]]
 name = "Home"
-url = "/"
+url = "https://alexaagithub.github.io/quackers"
 weight = 1
 
 [[menu.main]]
