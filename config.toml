@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = "https://alexaagithub.github.io/ducks_website/"
+baseurl = "https://alexaagithub.github.io/quackers/"
 title = "Vex | hugo landing page template"
 theme = "vex-hugo"
 # post excert
