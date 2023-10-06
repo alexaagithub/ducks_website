@@ -2,7 +2,7 @@
 banner:
   enable: true
   title: "Dive into Fun!"
-  content: "Experience pure joy with our delightful collection of rubber ducks. Whether you're a collector or just looking for a fun bath buddy, our rubber ducks are sure to make a splash. Explore our vibrant selection today and bring a touch of whimsy to your life!"
+  content: "Experience pure joy with our delightful collection of rubber ducks. Explore our vibrant selection today and bring a touch of whimsy to your life!"
   image: "images/rubberduck.png"
   button:
     enable: true
