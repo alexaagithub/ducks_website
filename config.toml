@@ -7,7 +7,7 @@ summarylength = "20"
 # google analytics
 googleAnalytics = "" # Ex: UA-123-45
 # disable language
-disableLanguages = [fr] # disable language from here
+disableLanguages = [] # disable language from here
 
 # unsafe html
 [markup.goldmark.renderer]
@@ -147,7 +147,7 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 # copyright
-copyright = "Built with [Hugo](https://gohugo.io/) from the [Vex theme](https://github.com/themefisher/vex-hugo). Code available on [GitHub](https://github.com/alexaagithub/ducks_website)."
+copyright = "Built with [Hugo](https://gohugo.io/) from the [Vex theme](https://github.com/themefisher/vex-hugo). Code available on [GitHub](https://github.com/alexaagithub/quackers)."
 
 
 ################################### French language #####################################
@@ -157,4 +157,4 @@ languageCode = "fr-fr"
 contentDir = "content/french"
 weight = 2
 # copyright
-copyright = "Built with [Hugo](https://gohugo.io/) from the [Vex theme](https://github.com/themefisher/vex-hugo). Code available on [GitHub](https://github.com/alexaagithub/ducks_website)."
+copyright = "Built with [Hugo](https://gohugo.io/) from the [Vex theme](https://github.com/themefisher/vex-hugo). Code available on [GitHub](https://github.com/alexaagithub/quackers)."
