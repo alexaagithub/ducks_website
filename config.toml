@@ -1,13 +1,13 @@
 ################################### Default Configuration ############################
 baseurl = "https://alexaagithub.github.io/quackers/"
-title = "Vex | hugo landing page template"
+title = "Quackers"
 theme = "vex-hugo"
 # post excert
 summarylength = "20"
 # google analytics
 googleAnalytics = "" # Ex: UA-123-45
 # disable language
-disableLanguages = [] # disable language from here
+disableLanguages = [fr] # disable language from here
 
 # unsafe html
 [markup.goldmark.renderer]
