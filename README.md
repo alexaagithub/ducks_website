@@ -4,7 +4,7 @@ Website created for the Digital Experience Course from [Miles in The Sky](https:
 
 ## Install
 ```bash
-$ git clone https://github.com/alexaagithub/ducks_website.git
+$ git clone https://github.com/alexaagithub/quackers.git
 
 $ hugo server
 ```
@@ -22,9 +22,9 @@ $ hugo
 
 $ cd ..
 
-$ mv -f ducks_website/public/* ducks_website/
+$ mv -f quackers/public/* quackers/
 
-$ cd ducks_website/
+$ cd quackers/
 
 $ git add .
 
