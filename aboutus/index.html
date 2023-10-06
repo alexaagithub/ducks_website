@@ -5,8 +5,8 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="About page of the Duckers website">
-  
+  <meta name="description" content="this is a meta description">
+  <meta name="author" content="Quackers">
   <meta name="generator" content="Hugo 0.111.3">
   
   
@@ -14,18 +14,40 @@
 
   <!-- plugins -->
   
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid&#43;Serif:400%7cJosefin&#43;Sans:300,400,600,700 ">
+  
+  <link rel="stylesheet" href="https://alexaagithub.github.io/ducks_website/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://alexaagithub.github.io/ducks_website/plugins/themefisher-font/themefisher-font.min.css ">
+  
+  <link rel="stylesheet" href="https://alexaagithub.github.io/ducks_website/plugins/slick/slick.min.css ">
+  
+  <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css ">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css ">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css ">
+  
 
   <!-- Main Stylesheet -->
   
   <link rel="stylesheet" href="https://alexaagithub.github.io/ducks_website/scss/style.min.css" media="screen">
 
-  <!--Favicon-->
-  <link rel="shortcut icon" href="https://alexaagithub.github.io/ducks_website/images/favicon.png " type="image/x-icon">
-  <link rel="icon" href="https://alexaagithub.github.io/ducks_website/images/favicon.png " type="image/x-icon">
+  
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="shortcut icon" href="https://alexaagithub.github.io/ducks_website/" type="image/x-icon">
+  <link rel="icon" href="https://alexaagithub.github.io/ducks_website/" type="image/x-icon">
 
   
   <meta property="og:title" content="About Us" />
-<meta property="og:description" content="About page of the Duckers website" />
+<meta property="og:description" content="this is a meta description" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://alexaagithub.github.io/ducks_website/aboutus/" />
 
@@ -33,10 +55,16 @@
 
 </head>
 <body id="body">
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+
 <header class="sticky-top bg-white">
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="/ducks_website"> <img src="https://alexaagithub.github.io/ducks_website/images/logo.png" alt="Quackers" width="150x"> </a>
+      <a class="navbar-brand" href="/ducks_website"> <img src="https://alexaagithub.github.io/ducks_website/images/logo.png" alt="Vex | hugo landing page template" width="100px"> </a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
         aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -50,66 +78,80 @@
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="https://alexaagithub.github.io/ducks_website/store/">Store</a>
+            <a class="nav-link" href="https://alexaagithub.github.io/ducks_website/aboutus/">About Us</a>
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="https://alexaagithub.github.io/ducks_website/aboutus/">About Us</a>
+            <a class="nav-link" href="https://alexaagithub.github.io/ducks_website/products/">Products</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/ducks_website#testimonial">Reviews</a>
           </li>
           
           <li class="nav-item">
             <a class="nav-link" href="https://alexaagithub.github.io/ducks_website/contact/">Contact</a>
           </li>
           
-          <li class="nav-item">
-            <a class="nav-link" href="https://alexaagithub.github.io/ducks_website/blog/">Blog</a>
-          </li>
-          
         </ul>
         
         
+        <select class="lang-list" id="select-language" onchange="location = this.value;">
+          
+          
+          
+          
+          
+          
+          
+          
+          <option id="en" value="https://alexaagithub.github.io/ducks_website/aboutus/" selected>En
+          </option>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <option id="fr" value="https://alexaagithub.github.io/ducks_website/fr/aboutus/">Fr</option>
+          
+          
+          
+          
+        </select>
+        
       </div>
+      
+      <button class="cart snipcart-checkout"><i class="tf-ion-android-cart"></i><span class="badge badge-primary snipcart-items-count"></span></button>
       
     </nav>
   </div>
 </header>
 
 
-<section class="feature-list section">
+<section class="section">
   <div class="container">
-    <div class="row">
-      <div class="col-12 text-center mb-5">
-        <h1>About Us</h1>
+    <div class="row justify-content-center">
+      <div class="col-lg-10 text-center mb-5">
+        <h1 class="font-weight-bold">About Us</h1>
       </div>
-    </div>
-    
-    <div class="row mb-40">
-      <div class="col-md-6 text-center mb-5 mb-lg-0">
-        <img class="img-fluid" src="https://alexaagithub.github.io/ducks_website/images/showcase/showcase-2.png" alt="">
-      </div>
-      <div class="col-md-6 align-self-center text-center text-md-left">
+      <div class="col-lg-10 mb-5">
         <div class="content">
-          <h4 class="subheading"><a class="link-title" href="https://alexaagithub.github.io/ducks_website/blog/post2/">Post 2</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id nunc nisi. Suspendisse malesuada at nibh ut viverra. Phasellus accumsan felis et mi pulvinar, vel suscipit dui dapibus. Vestibulum magna diam, ultrices ac blandit ac, vulputate porttitor nulla. Vivamus nec lacus et nisi lacinia sollicitudin et non urna. Aliquam in leo id arcu tincidunt auctor. Morbi sed venenatis erat. Etiam mollis leo eu odio mollis, nec vehicula magna consequat. Pellentesque viverra rutrum ullamcorper.</p>
-          <a href="https://alexaagithub.github.io/ducks_website/blog/post2/" class="btn btn-main btn-main-sm">Read More</a>
+          <p>Welcome to Quackers, where imagination meets whimsy. We&rsquo;re your one-stop destination for all things rubber ducks and more!
+At Quackers, we believe in the power of joy and nostalgia. Our curated collection of rubber ducks brings a smile to faces of all ages. Whether you&rsquo;re searching for a unique gift, a charming addition to your bath time routine, or simply want to relive the magic of childhood, we&rsquo;ve got the perfect rubber duck waiting for you.</p>
+<p>What sets us apart? Quality, variety, and a dash of quirkiness. Our rubber ducks come in an array of colors, themes, and sizes, ensuring there&rsquo;s a duck for every personality. Plus, we&rsquo;re not just about ducks – we&rsquo;re here to add a sprinkle of fun to your life.</p>
+<p>Join our community of rubber duck enthusiasts and explore the joyous world of Quackers. Dive in and discover your new favorite rubber duck today!</p>
+
         </div>
       </div>
     </div>
-    
-    <div class="row mb-40">
-      <div class="col-md-6 order-md-1 order-2 align-self-center text-center text-md-left">
-        <div class="content">
-          <h4 class="subheading"><a class="link-title" href="https://alexaagithub.github.io/ducks_website/blog/post1/">Post 1</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id nunc nisi. Suspendisse malesuada at nibh ut viverra. Phasellus accumsan felis et mi pulvinar, vel suscipit dui dapibus. Vestibulum magna diam, ultrices ac blandit ac, vulputate porttitor nulla. Vivamus nec lacus et nisi lacinia sollicitudin et non urna. Aliquam in leo id arcu tincidunt auctor. Morbi sed venenatis erat. Etiam mollis leo eu odio mollis, nec vehicula magna consequat. Pellentesque viverra rutrum ullamcorper.</p>
-          <a href="https://alexaagithub.github.io/ducks_website/blog/post1/" class="btn btn-main btn-main-sm">Read More</a>
-        </div>
-      </div>
-      <div class="col-md-6 order-md-2 order-1 text-center mb-5 mb-lg-0">
-        <img class="img-fluid" src="https://alexaagithub.github.io/ducks_website/images/showcase/showcase-1.png" alt="">
-      </div>
-    </div>
-    
-    
   </div>
 </section>
 
@@ -118,15 +160,36 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <a href="/ducks_website" class="mb-4 d-inline-block"> <img src="https://alexaagithub.github.io/ducks_website/images/logo.png" alt="Quackers" width="150x"> </a>
+          <a href="/ducks_website" class="mb-4 d-inline-block footer-logo">
+            
+            <img src="https://alexaagithub.github.io/ducks_website/images/logo.png" alt="Vex | hugo landing page template" width="100px">
+            
+          </a>
+          
+          <ul class="list-inline social-icons">
+            
+            <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a></li>
+            
+            <li class="list-inline-item"><a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+            
+            <li class="list-inline-item"><a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+            
+            <li class="list-inline-item"><a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+            
+          </ul>
+          
           <ul class="list-inline footer-menu">
             
             <li class="list-inline-item">
-              <a href="https://alexaagithub.github.io/ducks_website/aboutus/">About Us</a>
+              <a href="https://alexaagithub.github.io/ducks_website/">Home</a>
             </li>
             
             <li class="list-inline-item">
               <a href="https://alexaagithub.github.io/ducks_website/contact/">Contact</a>
+            </li>
+            
+            <li class="list-inline-item">
+              <a href="https://alexaagithub.github.io/ducks_website/products/">Store</a>
             </li>
             
           </ul>
@@ -146,6 +209,25 @@
 
 
 
-<script src="https://alexaagithub.github.io/ducks_website/js/script.js"></script></body>
+<div hidden id="snipcart" data-api-key="ZDgxY2ZiM2EtMWRmMi00M2ZkLWI1MDAtNzA2MDc0Y2Q1MzJlNjM3MTAzNDIwOTQ1NDA4NjM4"></div>
+
+
+
+
+
+
+<script src="https://alexaagithub.github.io/ducks_website/plugins/jquery/jquery.js"></script>
+
+<script src="https://alexaagithub.github.io/ducks_website/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://alexaagithub.github.io/ducks_website/plugins/slick/slick.min.js"></script>
+
+<script src="https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"></script>
+
+
+
+
+<script src="https://alexaagithub.github.io/ducks_website/js/script.js"></script>
+</body>
 
 </html>

@@ -5,7 +5,8 @@ $primary-font: 'Josefin Sans',
 sans-serif;
 $secondary-font: 'Droid Serif',
 serif;
-$primary-color: #f9a743;
+$primary-color: #f35c23;
+$secondary-color: #f3e23c;
 $icon-font: 'themefisher-font' !important;
 
 /*--
@@ -626,5 +627,23 @@ textarea.form-control {
   text-decoration: none !important;
   &:hover{
     color: $primary-color;
+  }
+}
+
+
+.social-icons a {
+  color: $primary-color;
+  text-align: center;
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  border: 1px solid $primary-color;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 20px;
+
+  &:hover {
+    color: $secondary-color;
+    background-color: $primary-color;
   }
 }

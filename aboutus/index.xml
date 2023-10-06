@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About Us on Quackers</title>
+    <title>About Us on Vex | hugo landing page template</title>
     <link>https://alexaagithub.github.io/ducks_website/aboutus/</link>
-    <description>Recent content in About Us on Quackers</description>
+    <description>Recent content in About Us on Vex | hugo landing page template</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://alexaagithub.github.io/ducks_website/aboutus/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>Built with [Hugo](https://gohugo.io/) from the [Vex theme](https://github.com/themefisher/vex-hugo). Code available on [GitHub](https://github.com/alexaagithub/ducks_website).</copyright><atom:link href="https://alexaagithub.github.io/ducks_website/aboutus/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

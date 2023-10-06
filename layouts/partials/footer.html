@@ -3,7 +3,20 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <a href="{{ site.BaseURL | relLangURL }}" class="mb-4 d-inline-block">{{ if site.Params.logo }} <img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" {{with site.Params.logo_width}}width="{{.}}"{{end}}> {{ else }} {{ .Title }} {{ end }}</a>
+          <a href="{{ site.BaseURL | relLangURL }}" class="mb-4 d-inline-block footer-logo">
+            {{ if site.Params.logo }}
+            <img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" {{with site.Params.logo_width}}width="{{.}}"{{end}}>
+            {{ else }}
+            {{ .Title }}
+            {{ end }}
+          </a>
+          {{ with .Site.Params.social }}
+          <ul class="list-inline social-icons">
+            {{ range .item }}
+            <li class="list-inline-item"><a href="{{ .link | safeURL }}" target="_blank" title="{{ .title }}"><i class="{{ .icon }}"></i></a></li>
+            {{ end }}
+          </ul>
+          {{ end }}
           <ul class="list-inline footer-menu">
             {{ range site.Menus.footer }}
             <li class="list-inline-item">
@@ -17,6 +30,10 @@
     </div>
   </div>
 </footer>
+
+
+
+
 
 
 <!-- Snipcart public key -->

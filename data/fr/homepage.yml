@@ -1,0 +1,40 @@
+############################# banner ############################
+banner:
+  enable: true
+  title: "Dive into Fun!"
+  content: "Experience pure joy with our delightful collection of rubber ducks. Whether you're a collector or just looking for a fun bath buddy, our rubber ducks are sure to make a splash. Explore our vibrant selection today and bring a touch of whimsy to your life!"
+  image: "images/rubberduck.png"
+  button:
+    enable: true
+    label: "Browse Our Products"
+    link: "products/"
+
+#################################### Products ########################
+products:
+  enable: true
+  title: "Checkout Our Products"
+
+############################## Testimonial ##########################
+testimonial:
+  enable: true
+  title: "Reviews"
+  testimonial_item:
+    # testimonial item loop
+    - name: "White Duck"
+      designation: "Beachwear Designer"
+      image: "images/avatar/whiteduck.png"
+      content: "I am absolutely thrilled with my purchase from this rubber duck store! The variety they offer is incredible, and I couldn't resist getting the adorable rubber duck with sunglasses. The quality is top-notch, and it's become the star of my bathroom. My friends love it too! Shipping was fast, and the customer service was outstanding. I'm already planning to buy more rubber ducks from here. Highly recommended!"
+
+    # testimonial item loop
+    - name: "Baby Duck"
+      designation: "Museum Curator"
+      image: "images/avatar/babyduck.png"
+      content: "I've been collecting rubber ducks for years, and this website is a hidden gem for fellow enthusiasts like me. Their collection is impressive, and I found some unique rubber ducks that I've never seen anywhere else. The only reason I didn't give them 5 stars is because I wish they had more detailed descriptions for each duck, including the materials used. Nonetheless, my recent purchase arrived in great condition, and I'm a happy quacker!"
+
+    # testimonial item loop
+    - name: "Brown Duck"
+      designation: "Event Planner"
+      image: "images/avatar/brownduck.png"
+      content: "My friend and I were looking for the perfect gift for our colleague's baby shower, and we stumbled upon this fantastic rubber duck store. We ended up purchasing the 'Ducky Duo' set, which includes two cute rubber ducks in a gift box. The presentation was adorable, and our colleague absolutely loved them! It's a thoughtful and playful gift that brings joy to both kids and adults. We're thrilled with our choice and the excellent service we received."
+
+

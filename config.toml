@@ -1,7 +1,46 @@
-baseURL = 'https://alexaagithub.github.io/ducks_website/'
-languageCode = 'en-us'
-title = 'Quackers'
-theme = 'vex-hugo'
+################################### Default Configuration ############################
+baseurl = "https://alexaagithub.github.io/ducks_website/"
+title = "Vex | hugo landing page template"
+theme = "vex-hugo"
+# post excert
+summarylength = "20"
+# google analytics
+googleAnalytics = "" # Ex: UA-123-45
+# disable language
+disableLanguages = [] # disable language from here
+
+# unsafe html
+[markup.goldmark.renderer]
+unsafe = true
+
+#################################### Plugins ##########################################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css?family=Droid+Serif:400|Josefin+Sans:300,400,600,700"
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themefisher-font/themefisher-font.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.min.css"
+[[params.plugins.css]]
+link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css"
+[[params.plugins.css]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css"
+[[params.plugins.css]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"
+
 
 ###################################### Navigation ######################################
 
@@ -12,30 +51,30 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Store"
-url = "store/"
+name = "About Us"
+url = "aboutus/"
 weight = 2
 
 [[menu.main]]
-name = "About Us"
-url = "aboutus/"
+name = "Products"
+url = "products/"
 weight = 3
+
+[[menu.main]]
+name = "Reviews"
+pre = "#"
+url = "testimonial"
+weight = 4
 
 [[menu.main]]
 name = "Contact"
 url = "contact/"
-weight = 4
-
-[[menu.main]]
-name = "Blog"
-url = "blog/"
 weight = 5
-
 
 # footer menu
 [[menu.footer]]
-name = "About Us"
-url = "aboutus/"
+name = "Home"
+url = "/"
 weight = 1
 
 [[menu.footer]]
@@ -43,13 +82,79 @@ name = "Contact"
 url = "contact/"
 weight = 2
 
-###################################### Logo ######################################
+[[menu.footer]]
+name = "Store"
+url = "products/"
+weight = 3
+
+
+########################### Default parameters ##########################
 [params]
 logo = "images/logo.png"
-logo_width = "150x"
+logo_width = "100px"
+# Meta data
+description = ""
+author = "Quackers"
+# currency
+currency = "$"
+# contact form action
+contact_form_action = "https://formspree.io/f/mrgwoqgk" # contact form works with https://formspree.io
 
-###################################### Footer ######################################
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use .png , .svg or .gif format
 
+# Snipcart
+[params.snipcart]
+enable = true
+# snipcart public api key
+snipcart_api = "ZDgxY2ZiM2EtMWRmMi00M2ZkLWI1MDAtNzA2MDc0Y2Q1MzJlNjM3MTAzNDIwOTQ1NDA4NjM4"
+
+# Subscription
+[params.subscription]
+# mailchimp subsciption
+mailchimp_form_action = "" # replace this url with yours
+mailchimp_form_name = ""                                                           # replace this code with yours
+
+############################# social site ########################
+[params.social]
+  [[params.social.item]]
+    title = "Facebook"
+    link = "https://www.facebook.com"
+    icon = "fab fa-facebook"
+  [[params.social.item]]
+    title = "Twitter"
+    link = "https://twitter.com"
+    icon = "fab fa-twitter"
+  [[params.social.item]]
+    title = "Instagram"
+    link = "https://instagram.com"
+    icon = "fab fa-instagram"
+  [[params.social.item]]
+    title = "LinkedIn"
+    link = "https://linkedin.com"
+    icon = "fab fa-linkedin"
+
+
+
+
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+# copyright
 copyright = "Built with [Hugo](https://gohugo.io/) from the [Vex theme](https://github.com/themefisher/vex-hugo). Code available on [GitHub](https://github.com/alexaagithub/ducks_website)."
 
 
+################################### French language #####################################
+[Languages.fr]
+languageName = "Fr"
+languageCode = "fr-fr"
+contentDir = "content/french"
+weight = 2
+# copyright
+copyright = "Built with [Hugo](https://gohugo.io/) from the [Vex theme](https://github.com/themefisher/vex-hugo). Code available on [GitHub](https://github.com/alexaagithub/ducks_website)."
